@@ -1,5 +1,5 @@
 JsBarcode("#barcode", "Hello World!!!", {
-  background: "#f7db4f",
+  background: "#ffffff",
   lineColor: "#000000",
 });
 function generate() {
