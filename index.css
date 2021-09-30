@@ -1,59 +1,53 @@
 /* styles needed */
-
-body
-{
-  margin:0;
-  padding:0;
-  background:#ffd700;
+#particles-js {
+	background: #111;
+	opacity: 0.75;
+	height: 100vh;
+	width: 100vw;
 }
-div
-{
-  width:100%;
-  text-align:center;
-  margin-top:20px;
-  font-weight:1000px;
-  font-size:53px;
-  color:#00008b;
+div {
+	text-align: center;
+	margin-top: 20px;
+	font-weight: 1000px;
+	font-size: 53px;
+	color: #00008b;
 }
-input
-{
-  padding: 10px 5px 10px 5px;
-  font-size: 20px;
-  border:none;
-  background-color:transparent;
-  color:#be540d;
-  border-bottom: 1px solid  #00ffff;
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  margin-top:50px;
-  margin-bottom:30px;
-  outline:none;
+input {
+	padding: 10px 5px 10px 5px;
+	font-size: 20px;
+	border: none;
+	background-color: transparent;
+	color: #be540d;
+	border-bottom: 1px solid #00ffff;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	outline: none;
 }
-button
-{
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  borger-radius:5px;
-  padding: 8px 25px;
-  background-color:#83af9b;
-  color:white;
-  border:none;
-  transition:350ms ease;
-  box-shadow:none;
-  text-align:center;
-  margin-top:10x;
-  margin-bottom:30px;
-  user-select:none;
-  outline:none;
+button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	borger-radius: 5px;
+	padding: 8px 25px;
+	background-color: #83af9b;
+	color: white;
+	border: none;
+	transition: 350ms ease;
+	box-shadow: none;
+	text-align: center;
+	margin-top: 10x;
+	margin-bottom: 30px;
+	user-select: none;
+	outline: none;
 }
-button:active{
-  tranform:scale(0,9);
+button:active {
+	tranform: scale(0, 9);
 }
-svg
-{
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
+svg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
