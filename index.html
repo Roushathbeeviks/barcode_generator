@@ -20,10 +20,13 @@
 		<title>Heyy, Friends!</title>
 	</head>
 	<body>
-		<div id="particles-js">
-			<div>Barcode Generator</div>
-			<input type="text" placeholder="Enter..." />
-			<button onclick="generate()">Generate Barcode</button>
+		
+<nav>
+		<h2 class="head">Barcode Generator</h2> 
+</nav>
+		<div id="particles-js" style="margin-top:0rem">
+			<input type="text" placeholder="Enter..." style="margin-top: 3rem" />
+			<button class="btnGen"onclick="generate()">Generate Barcode</button>
 			<svg id="barcode"></svg>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/jsbarcode/3.11.0/JsBarcode.all.min.js"></script>
 		</div>
